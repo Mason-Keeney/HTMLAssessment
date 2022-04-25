@@ -1,0 +1,33 @@
+*{
+
+}
+table{
+  border-collapse: collapse;
+} th, td{
+  border: 2px solid black;
+} th{
+  background-color: #6C68AD;
+} td{
+  background-color: #6887AD;
+}
+
+a.inLink {
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  margin: 10px 30px;
+  border-collapse: collapse;
+  border: 2px solid black;
+  padding: 6px;
+}
+
+#hipsorem{
+  font-family: "Arial";
+}
+#hipsorem blockquote{
+  font-style: italic;
+}
+div {
+  position: sticky;
+  overflow: scroll;
+}
