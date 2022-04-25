@@ -8,9 +8,21 @@ table{
   border: 2px solid black;
   text-align: center;
 }
+tbody tr:nth-child(odd){
+  background-color: lightgray
+}
+tbody tr:nth-child(even){
+  background-color: gray;
+  }
 
 thead{
-  font-weight: bold;
+  background-color: #7B3506;
+  color: white;
+}
+
+tfoot{
+  background-color: #7B3506;
+  color: white;
 }
 
 ul{
@@ -36,9 +48,11 @@ blockquote{
   padding: 20px;
 }
 
+#teamRoster > li > img{
+  list-style: none;
+}
 
-
- [alt="Broncos Logo"]{
+ li img{
   visibility: hidden;
   list-style: none;
 }
@@ -47,11 +61,6 @@ blockquote{
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
   background-repeat: no-repeat;
   padding: 20px;
-}
-
-[alt="Bears Logo"]{
-  visibility: hidden;
-  list-style: none;
 }
 
 
